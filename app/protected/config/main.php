@@ -17,7 +17,9 @@ return array(
 		'application.models.*',
 		'application.components.*',
 	),
-
+    'aliases' => array(
+        'packages' => dirname(__FILE__).DIRECTORY_SEPARATOR.'../extensions',
+    ),
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		/*

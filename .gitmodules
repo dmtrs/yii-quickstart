@@ -1,3 +1,6 @@
 [submodule "yii"]
 	path = yii
 	url = https://github.com/yiisoft/yii
+[submodule "app/protected/extensions/curl"]
+	path = app/protected/extensions/curl
+	url = https://github.com/dmtrs/YiiCurl.git
